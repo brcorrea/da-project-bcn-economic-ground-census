@@ -14,3 +14,20 @@ However, according to the reference:
 Data from 2014 is not comparable to 2016 and 2019; only 2016 and 2019 datasets were used.
 
 Author: Bruna Correa
+
+### Build docker image to run the notebook
+
+```
+docker build -t bcn_eco_ground_img .
+```
+
+### Run notebook server in docker
+
+```bash
+docker run -it --rm \
+    -p 8888:8888 \
+    -v $(pwd)/notebooks:/home/jovyan/notebooks \
+    -v $(pwd)/data:/data/ \
+    bcn_eco_ground_img \
+    jupyter notebook --notebook-dir /home/jovyan/notebooks
+```
