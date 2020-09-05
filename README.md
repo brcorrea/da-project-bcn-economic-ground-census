@@ -32,8 +32,12 @@ docker run -it --rm \
     jupyter notebook --notebook-dir /home/jovyan/notebooks
 ```
 
-### Download 2019 and 2016 .csv data from:
+### Download 2019 and 2016 .csv data and .geojson from:
 
 https://opendata-ajuntament.barcelona.cat/data/en/dataset/cens-activitats-comercials
 
-And move the files to the '/data' directory.
+### Download surface area data from 2016 and 2019 from:
+
+https://opendata-ajuntament.barcelona.cat/data/ca/dataset/est-superficie
+
+Move the files to the '/data' directory.
