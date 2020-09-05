@@ -32,7 +32,7 @@ docker run -it --rm \
     jupyter notebook --notebook-dir /home/jovyan/notebooks
 ```
 
-### Download 2019 and 2016 csv data from:
+### Download 2019 and 2016 .csv data from:
 
 https://opendata-ajuntament.barcelona.cat/data/en/dataset/cens-activitats-comercials
 
